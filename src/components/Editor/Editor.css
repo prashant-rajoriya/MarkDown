@@ -1,0 +1,17 @@
+.Editor {
+  display: flex;
+  flex: 1;  
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.Textarea {
+  width: 99%;
+  overflow: hidden;
+  height: 720px;
+  align-self: center;
+  font-size: 20px;
+  background-color: rgba(238, 238, 238, 0.863);
+  outline: none;
+  padding: 5px;
+}

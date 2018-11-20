@@ -1,0 +1,16 @@
+.Previewer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+div {
+  width: 99%;
+}
+
+.Previewer div:nth-child(2) {
+  width: 99%;
+  height: 720px;
+}
