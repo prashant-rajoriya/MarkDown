@@ -1,4 +1,5 @@
-const placeholder = { markdown : `# Welcome to my React Markdown Previewer!
+const initialState = { 
+  markdown : `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
@@ -45,6 +46,6 @@ And here. | Okay. | I think we get it.
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `}
 
-export default (state = {placeholder}, action) => {
+export default (state = initialState, action) => {
   return state;
 }

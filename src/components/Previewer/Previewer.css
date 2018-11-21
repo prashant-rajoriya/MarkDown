@@ -13,4 +13,5 @@ div {
 .Previewer div:nth-child(2) {
   width: 99%;
   height: 720px;
+  padding: 5px;
 }
