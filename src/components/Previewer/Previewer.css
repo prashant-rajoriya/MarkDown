@@ -4,6 +4,7 @@
   flex: 1;
   margin-left: 5px;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 div {
@@ -11,7 +12,12 @@ div {
 }
 
 .Previewer div:nth-child(2) {
-  width: 99%;
-  height: 720px;
+  width: 98.7%;
+  height: 80vh;
   padding: 5px;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
+#preview {
+  background-color: #aaeedd;
 }

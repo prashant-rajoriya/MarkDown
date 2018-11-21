@@ -47,5 +47,12 @@ And here. | Okay. | I think we get it.
 `}
 
 export default (state = initialState, action) => {
+  if(action.type === 'CHANGE_MARKDOWN') {
+    return {
+      ...state,
+      markdown: action.value
+    }
+  }
+
   return state;
 }
